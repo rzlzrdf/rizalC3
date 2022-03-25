@@ -1,0 +1,35 @@
+.addcar-form {
+  width: 97%;
+  max-height: 100vh;
+  margin: 24px;
+}
+
+.addcar-form label {
+  padding-right: 10%;
+}
+
+.addcar-form form {
+  background-color: white;
+}
+
+.addcar-form .btn {
+  height: 36px;
+  position: absolute;
+  bottom: 3vh;
+}
+
+.addcar-form .btn-save {
+  background-color: #0D28A6;
+  color: white;
+  border-color: #0D28A6;
+  margin-left: 12px;
+  left: 22vh;
+}
+
+.addcar-form .btn-cancel {
+  background-color: transpwhiarent;
+  color: #0D28A6;
+  border-color: #0D28A6;
+  left: 12vh;
+}
+/*# sourceMappingURL=addcar.css.map */

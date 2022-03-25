@@ -1,5 +1,4 @@
 const express = require('express')
-const cars = require('../controllers/cars')
 const router = express.Router()
 const carsController = require('../controllers/cars')
 
@@ -8,6 +7,8 @@ router.use( (req,res,next) => {
   next()
 })
 router.get('/', carsController.cars)
+router.get('/addcar', carsController.addcar )
+router.get('/editcar', carsController.editcar )
 
 
 // ----------------------------------------- //

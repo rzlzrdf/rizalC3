@@ -14,10 +14,11 @@ app.use( (req, res, next) => {
 })
 
 app.listen(1500, () => {
-  console.log('Server jalan...')
+  console.log('Server jalan sedang berjalan di localhost:1500')
 })
 
 // DEFAULT ROUTER
 app.get('/', (req,res) => res.render('index'))
 app.use('/dashboard/', routers.dashboard)
 app.use('/cars/', routers.cars)
+app.use('/auth/', routers.auth)

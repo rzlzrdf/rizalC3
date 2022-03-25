@@ -10,11 +10,6 @@
 
 .content .car-category {
   padding-left: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-width: 100vh;
-          column-width: 100vh;
 }
 
 .content .car-category .btn {
@@ -39,19 +34,42 @@
           box-shadow: #AEB7E1;
 }
 
-.content .card {
-  width: 351px;
-  height: 483px;
-  margin: 24px;
+.car-collection {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.car-collection .card {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 24px;
+  margin-left: 24px;
   padding: 24px;
 }
 
-.content .card .card-body .btn {
-  width: 49%;
-  margin-top: 2%;
+.car-collection .card .card-body .btn {
+  width: 48%;
+  margin-top: 24px;
 }
 
-.content .card .card-body p {
+.car-collection .card .card-body p {
   margin: 2%;
 }
 /*# sourceMappingURL=listcars.css.map */

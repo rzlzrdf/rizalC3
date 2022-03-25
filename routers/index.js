@@ -9,11 +9,13 @@ const app = express()
 // ----------------------------------------- //
 const dashboard = require('./dashboard')
 const cars = require('./cars')
+const auth = require('./auth')
+
 
 module.exports = { 
   dashboard: dashboard, 
-  cars : cars,
-
+  cars: cars,
+  auth: auth
 }
 
 

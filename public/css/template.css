@@ -58,7 +58,7 @@
 #dashboard #main-content .pencarian {
   position: absolute;
   right: 20vh;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 #dashboard #main-content .pencarian ::-webkit-input-placeholder {

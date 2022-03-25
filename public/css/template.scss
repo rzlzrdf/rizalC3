@@ -1,0 +1,89 @@
+#dashboard{
+    min-height: 100vh;
+    #sidebar{
+        background: #0D28A6;
+        max-width: 13vh;
+        flex-grow: 0;
+        flex-shrink: 1;
+        #sidebar-menu{
+            margin-top: 15px;
+            padding: 3px;
+        }
+        
+        .logo-sidebar{
+            display: flexbox;
+            position: relative;
+            width: 34px;
+            height: 34px;
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
+        
+        .main-nav-item a{
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .main-nav-item :hover{
+            background-color: #5668c1;
+        }
+    }   
+
+    #main-content{
+        background: #F4F5F7;
+        flex-grow: 1;
+        flex-shrink: 0;
+        #navbar{
+            background-color: white;
+            max-height: 15vh;
+
+            i{
+                color: black;
+            }
+        }
+        .pencarian{
+            position: absolute;
+            right: 20vh;
+            margin-right: 10px;
+            ::placeholder{
+                color: #D0D0D0;
+            }
+            button{
+                border-color: #0D28A6;
+                color: #0D28A6;
+            }
+            button:hover{
+                background-color: #0D28A6;
+                color: white;
+                border-color: #0D28A6;
+            }
+        }
+        .profil{
+            position: relative;
+            right: 1%;
+            background-color: none;
+            
+        }
+        
+    }
+
+    #content{
+        .table-order{
+            padding: 25px;
+            tr{
+                background-color: white;
+            }
+        }
+
+
+        .table-car{
+            padding: 25px;
+            tr{
+                background-color: white;
+            }
+        }
+
+        
+    }
+}

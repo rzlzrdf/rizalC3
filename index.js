@@ -1,11 +1,23 @@
-// import express
+const expressLayouts = require('express-ejs-layouts')
 const express = require('express')
 const app = express()
 
-app.set('view engine', 'ejs')
+// IMPORT MODUL ROUTER
+const routers = require('./routers')
 
-app.get('/', (req, res) => {
-    res.render('template')
+app.set('view engine', 'ejs')
+app.use(express.static('public'))
+app.use(expressLayouts)
+app.use( (req, res, next) => {
+  req.app.set('layout','layouts/non')
+  next()
 })
 
-app.listen(1500, () => {console.log('port 1500 sudah jalan');})
+app.listen(1500, () => {
+  console.log('Server jalan...')
+})
+
+// DEFAULT ROUTER
+app.get('/', (req,res) => res.render('index'))
+app.use('/dashboard/', routers.dashboard)
+app.use('/cars/', routers.cars)

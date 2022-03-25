@@ -1,0 +1,112 @@
+#dashboard {
+  min-height: 100vh;
+}
+
+#dashboard #sidebar {
+  background: #0D28A6;
+  max-width: 13vh;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+#dashboard #sidebar #sidebar-menu {
+  margin-top: 15px;
+  padding: 3px;
+}
+
+#dashboard #sidebar .logo-sidebar {
+  display: flexbox;
+  position: relative;
+  width: 34px;
+  height: 34px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+#dashboard #sidebar .main-nav-item a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#dashboard #sidebar .main-nav-item :hover {
+  background-color: #5668c1;
+}
+
+#dashboard #main-content {
+  background: #F4F5F7;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+#dashboard #main-content #navbar {
+  background-color: white;
+  max-height: 15vh;
+}
+
+#dashboard #main-content #navbar i {
+  color: black;
+}
+
+#dashboard #main-content .pencarian {
+  position: absolute;
+  right: 20vh;
+  margin-right: 10px;
+}
+
+#dashboard #main-content .pencarian ::-webkit-input-placeholder {
+  color: #D0D0D0;
+}
+
+#dashboard #main-content .pencarian :-ms-input-placeholder {
+  color: #D0D0D0;
+}
+
+#dashboard #main-content .pencarian ::-ms-input-placeholder {
+  color: #D0D0D0;
+}
+
+#dashboard #main-content .pencarian ::placeholder {
+  color: #D0D0D0;
+}
+
+#dashboard #main-content .pencarian button {
+  border-color: #0D28A6;
+  color: #0D28A6;
+}
+
+#dashboard #main-content .pencarian button:hover {
+  background-color: #0D28A6;
+  color: white;
+  border-color: #0D28A6;
+}
+
+#dashboard #main-content .profil {
+  position: relative;
+  right: 1%;
+  background-color: none;
+}
+
+#dashboard #content .table-order {
+  padding: 25px;
+}
+
+#dashboard #content .table-order tr {
+  background-color: white;
+}
+
+#dashboard #content .table-car {
+  padding: 25px;
+}
+
+#dashboard #content .table-car tr {
+  background-color: white;
+}
+/*# sourceMappingURL=template.css.map */

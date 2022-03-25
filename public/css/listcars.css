@@ -1,0 +1,57 @@
+.content .title-content h5 {
+  font-weight: bold;
+}
+
+.content .title-content .btn {
+  position: relative;
+  left: 82.5%;
+  background-color: #0D28A6;
+}
+
+.content .car-category {
+  padding-left: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-width: 100vh;
+          column-width: 100vh;
+}
+
+.content .car-category .btn {
+  background-color: transparent;
+  color: #AEB7E1;
+  border-color: #AEB7E1;
+}
+
+.content .car-category .btn:active {
+  color: #0D28A6;
+  background-color: #AEB7E1;
+  border-color: #0D28A6;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.content .car-category .btn:hover {
+  color: #0D28A6;
+  background-color: #AEB7E1;
+  border-color: #0D28A6;
+  -webkit-box-shadow: #AEB7E1;
+          box-shadow: #AEB7E1;
+}
+
+.content .card {
+  width: 351px;
+  height: 483px;
+  margin: 24px;
+  padding: 24px;
+}
+
+.content .card .card-body .btn {
+  width: 49%;
+  margin-top: 2%;
+}
+
+.content .card .card-body p {
+  margin: 2%;
+}
+/*# sourceMappingURL=listcars.css.map */

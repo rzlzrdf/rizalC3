@@ -1,0 +1,54 @@
+.content{
+    .title-content{
+       
+        h5{
+            font-weight: bold;
+        }    
+        .btn{
+            position: relative;
+            left: 82.5%;
+            background-color: #0D28A6;
+        }    
+    }
+    .car-category{
+        padding-left: 25px;
+        display: flex;
+        column-width: 100vh;
+        .btn{
+            background-color: transparent;
+            color: #AEB7E1;
+            border-color: #AEB7E1;;
+        } 
+        .btn:active{
+            color: #0D28A6;
+            background-color: #AEB7E1;
+            border-color: #0D28A6;
+            box-shadow: none;
+        }
+
+        .btn:hover{
+            color: #0D28A6;
+            background-color: #AEB7E1;
+            border-color: #0D28A6;
+            box-shadow: #AEB7E1;
+            
+        }
+    }
+    .card{
+        width: 351px;
+        height: 483px;
+        margin: 24px;
+        padding: 24px;
+        .card-body{
+            .btn{
+                width: 49%;
+                margin-top: 2%;
+            }
+
+            p{
+                margin: 2%;
+            }
+        }
+    }
+   
+}

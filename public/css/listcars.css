@@ -72,4 +72,33 @@
 .car-collection .card .card-body p {
   margin: 2%;
 }
+
+.car-collection .modal-dialog {
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 17vh;
+  height: 387px;
+  width: 333px;
+}
+
+.car-collection .modal-dialog .modal-content .modal-body img {
+  width: 153px;
+  height: 121px;
+}
+
+.car-collection .modal-dialog .modal-content .modal-footer .ya {
+  width: 87px;
+  background-color: #0D28A6;
+  color: white;
+  border-color: #0D28A6;
+}
+
+.car-collection .modal-dialog .modal-content .modal-footer .no {
+  width: 87px;
+  background-color: transparent;
+  color: #0D28A6;
+  border-color: #0D28A6;
+}
 /*# sourceMappingURL=listcars.css.map */

@@ -5,6 +5,14 @@ const app = express()
 // IMPORT MODUL ROUTER
 const routers = require('./routers')
 
+global.auth = [
+  {
+    id: 84758945398454395,
+    username: 'username',
+    password: 'password' // ini kita sederhanakan jadi string aj ya, perlu ganti juga di passport-config.js line:22
+  }
+]
+
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
 app.use(expressLayouts)

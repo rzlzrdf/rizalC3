@@ -61,4 +61,38 @@
             }
         }
     }
+
+    .modal-dialog{
+        display: block;
+        justify-content: center;
+        top: 17vh;
+        height: 387px;
+        width:  333px;
+        .modal-content{
+
+            .modal-body{
+                img{
+                    width: 153px;
+                    height: 121px;
+                }
+            }
+            .modal-footer{
+                    .ya{
+                        width: 87px;
+                        background-color: #0D28A6;
+                        color: white;
+                        border-color: #0D28A6;
+                    }
+                    .no{
+                        width: 87px;
+                        background-color: transparent;
+                        color: #0D28A6;
+                        border-color: #0D28A6;
+                    }
+            }
+        }
+    }
+    
+    
 }
+
